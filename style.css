@@ -29,6 +29,10 @@ body{
     background-color: #c6c7c3;
 }
 
+.container{
+    max-width: 1000px !important;
+}
+
 .esquerda{
     min-width: 476px;
     background-color: #919898;
@@ -53,7 +57,7 @@ body{
 .titulo{
     font-family: RoxboroughCF, serif;
     font-size: 20px;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-top: 20px;
     font-weight: 600;
 }
@@ -69,12 +73,12 @@ div#e2 p{
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 200;
-    margin: 10px 50px 0px 25%;
+    margin: 10px 50px 0px 15%;
 }
 
 div#e3 img{
     width: 40px;
-    margin-left: 23%;
+    margin-left: 13%;
 }
 
 div#e3 a{
@@ -88,7 +92,7 @@ div#e4 h1{
 
 .educacao-data{
     font-family: ClearSans-Regular, sans-serif;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-bottom: 1px;
     margin-top: 15px;
     font-size: 14px;
@@ -96,14 +100,14 @@ div#e4 h1{
 
 .educacao-menor{
     font-family: ClearSans-Regular, sans-serif;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-bottom: 0px;
     font-size: 15px;
 }
 
 .educacao-maior{
     font-family: ClearSans-Bold, sans-serif;
-    margin-left: 25%;
+    margin-left: 15%;
     font-size: 18px;
     margin-bottom: 0px;
 }
