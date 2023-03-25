@@ -165,7 +165,7 @@ div#d2-extra{
 }
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 480px){
     
     .esquerda > div{
         max-width: 420px;
@@ -173,10 +173,6 @@ div#d2-extra{
     .direita > div{
         max-width: 420px;
     }
-    /*
-    div#e1, div#e2, div#e3, div#e4{
-        min-width: 420px;
-    }*/
 
     div#e2 > p {
         margin-right: 0%;
@@ -185,7 +181,6 @@ div#d2-extra{
     div#e3 > p {
         margin-left: 0%;
     }
-    
 
     div#d1 > hr {
         min-width: 63%;
