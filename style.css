@@ -166,7 +166,7 @@ div#d2-extra{
 
 
 @media only screen and (max-width: 480px){
-    
+
     .esquerda > div{
         max-width: 90%;
     }
@@ -183,6 +183,6 @@ div#d2-extra{
     }
 
     div#d1 > hr {
-        min-width: 63%;
+        min-width: 61%;
     }
 }
