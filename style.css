@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: RoxboroughCF;
+    src: url(fonts/Roxborough\ CF.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: ClearSans-Regular;
+    src: url(fonts/ClearSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: ClearSans-Bold;
+    src: url(fonts/ClearSans-Bold.ttf);
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: #c6c7c3;
+}
+
+.esquerda{
+    min-width: 476px;
+    background-color: #919898;
+    min-height: 100vh;
+    padding: 0px !important;
+}
+
+.direita{
+    min-width: 476px;
+    background-color: #FFFFFF;
+    padding: 0px !important;
+}
+
+#foto{
+    width: 250px;
+    margin-left: 25%;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.titulo{
+    font-family: RoxboroughCF, serif;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+/* --- Esquerda --- */
+
+div#e3 h1{
+    margin-top: 15px;
+}
+
+div#e2 p{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 10px 50px 0px 25%;
+}
+
+div#e3 img{
+    width: 40px;
+    margin-left: 23%;
+}
+
+div#e3 a{
+    text-decoration: none;
+    color: black;
+}
+
+div#e4 h1{
+    margin-bottom: 0px;
+}
+
+.educacao-data{
+    font-family: ClearSans-Regular, sans-serif;
+    margin-left: 25%;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.educacao-menor{
+    font-family: ClearSans-Regular, sans-serif;
+    margin-left: 25%;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.educacao-maior{
+    font-family: ClearSans-Bold, sans-serif;
+    margin-left: 25%;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+
+/* --- Direita --- */
+
+#nome{
+    font-family: RoxboroughCF, serif;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+div#d1 h2{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 10%;
+}
+
+div#d1 hr{
+    border: 3.5px solid;
+    background-color: #919898;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+div#d2 h1, div#d3 h1{
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+div#d2-extra h2{
+    font-family: ClearSans-Bold, sans-serif;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+div#d2-extra{
+    margin-bottom: 200px;
+}
+
+.direita ul{
+    font-family: ClearSans-Normal, sans-serif;
+    margin-left: 8%;
+    font-size: 16px;
+}
