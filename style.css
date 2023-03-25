@@ -168,10 +168,10 @@ div#d2-extra{
 @media only screen and (max-width: 480px){
     
     .esquerda > div{
-        max-width: 420px;
+        max-width: 90%;
     }
     .direita > div{
-        max-width: 420px;
+        max-width: 90%;
     }
 
     div#e2 > p {
