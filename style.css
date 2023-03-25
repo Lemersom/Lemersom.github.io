@@ -90,6 +90,10 @@ div#e4 h1{
     margin-bottom: 0px;
 }
 
+div#e4 p{
+    margin-right: 5%;
+}
+
 .educacao-data{
     font-family: ClearSans-Regular, sans-serif;
     margin-left: 15%;
@@ -161,34 +165,29 @@ div#d2-extra{
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 320px){
+    
     .esquerda > div{
-        max-width: 320px;
+        max-width: 420px;
     }
     .direita > div{
-        max-width: 320px;
+        max-width: 420px;
     }
-    
-    #foto{
-        margin-left: 9%;
-    }
+    /*
+    div#e1, div#e2, div#e3, div#e4{
+        min-width: 420px;
+    }*/
 
-    .esquerda * {
-        margin-left: 3%;
-        margin-right: 3%;
-    }   
-    
     div#e2 > p {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-right: 0%;
     }
 
     div#e3 > p {
         margin-left: 0%;
     }
-
+    
 
     div#d1 > hr {
-        min-width: 480px;
+        min-width: 63%;
     }
 }
