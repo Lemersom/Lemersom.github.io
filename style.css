@@ -73,7 +73,7 @@ div#e2 p{
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 200;
-    margin: 10px 50px 0px 15%;
+    margin: 10px 13% 0px 15%;
 }
 
 div#e3 img{
@@ -158,4 +158,37 @@ div#d2-extra{
     font-family: ClearSans-Normal, sans-serif;
     margin-left: 8%;
     font-size: 16px;
+}
+
+
+@media only screen and (max-width: 480px){
+    .esquerda > div{
+        max-width: 320px;
+    }
+    .direita > div{
+        max-width: 320px;
+    }
+    
+    #foto{
+        margin-left: 9%;
+    }
+
+    .esquerda * {
+        margin-left: 3%;
+        margin-right: 3%;
+    }   
+    
+    div#e2 > p {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    div#e3 > p {
+        margin-left: 0%;
+    }
+
+
+    div#d1 > hr {
+        min-width: 480px;
+    }
 }
