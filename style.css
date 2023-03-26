@@ -167,6 +167,13 @@ div#d2-extra{
 
 @media only screen and (max-width: 480px){
 
+    .esquerda{
+        max-width: 100vw;
+    }
+    .direita{
+        max-width: 100vw;
+    }
+
     .esquerda > div{
         max-width: 90%;
     }
