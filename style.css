@@ -21,185 +21,110 @@
 }
 
 
-::-webkit-scrollbar{
-    display: none;
-}
 
 body{
+    height: 100vh;
+    background-color: #c6c7c3 !important;
+}
+
+.main{
     background-color: #c6c7c3;
 }
 
-.container{
-    max-width: 1000px !important;
-}
 
-.esquerda{
-    min-width: 476px;
+/* col-left */
+.col-left{
     background-color: #919898;
-    min-height: 100vh;
-    padding: 0px !important;
+    min-width: min-content;
+    box-sizing: border-box;
 }
 
-.direita{
-    min-width: 476px;
-    background-color: #FFFFFF;
-    padding: 0px !important;
-}
-
-#foto{
-    width: 250px;
-    margin-left: 25%;
-    border: 4px solid #FFFFFF;
+#profile-picture{
+    border: solid 3px #FFFFFF;
     border-radius: 50%;
-    margin-top: 10px;
 }
 
-.titulo{
-    font-family: RoxboroughCF, serif;
-    font-size: 20px;
-    margin-left: 15%;
-    margin-top: 20px;
+.title-text{
+    font-family: 'RoxboroughCF', sans-serif;
     font-weight: 600;
+    font-size: 20px;
 }
 
-
-/* --- Esquerda --- */
-
-div#e3 h1{
-    margin-top: 15px;
-}
-
-div#e2 p{
-    font-family: Inter, sans-serif;
-    font-size: 16px;
+.aboutme-text{
+    font-family: 'Inter', sans-serif;
     font-weight: 200;
-    margin: 10px 13% 0px 15%;
+    font-size: 16px;
 }
 
-div#e3 img{
-    width: 40px;
-    margin-left: 13%;
-}
-
-div#e3 a{
+.contacts > a{
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
-div#e4 h1{
-    margin-bottom: 0px;
+.contacts > a:hover{
+    text-decoration: none;
+    color: #000000;
 }
 
-div#e4 p{
-    margin-right: 5%;
-}
-
-.educacao-data{
-    font-family: ClearSans-Regular, sans-serif;
-    margin-left: 15%;
-    margin-bottom: 1px;
-    margin-top: 15px;
+.education-date{
+    font-family: 'ClearSans-Regular', sans-serif;
     font-size: 14px;
 }
 
-.educacao-menor{
-    font-family: ClearSans-Regular, sans-serif;
-    margin-left: 15%;
-    margin-bottom: 0px;
+.education-title{
+    font-family: 'ClearSans-Bold', sans-serif;
+    font-size: 18px;
+}
+
+.education-subtitle{
+    font-family: 'ClearSans-Regular', sans-serif;
     font-size: 15px;
 }
 
-.educacao-maior{
-    font-family: ClearSans-Bold, sans-serif;
-    margin-left: 15%;
-    font-size: 18px;
-    margin-bottom: 0px;
+
+/* col-right */
+.col-right{
+    background-color: #FFFFFF;
+    position: relative;
+    min-width: min-content;
 }
 
-
-/* --- Direita --- */
-
-#nome{
-    font-family: RoxboroughCF, serif;
+.name-title{
+    font-family: 'RoxboroughCF', sans-serif;
     font-size: 40px;
-    margin-left: 10%;
-    margin-top: 13%;
 }
 
-div#d1 h2{
-    font-family: Inter, sans-serif;
+.name-subtitle{
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
     font-weight: 200;
-    margin-left: 10%;
 }
 
-div#d1 hr{
+#divider{
+    position: absolute;
     border: 3.5px solid;
-    background-color: #919898;
     width: 50%;
-    margin-left: 50%;
-    margin-top: 20px;
-    margin-bottom: 45px;
+    right: 0;
 }
 
-div#d2 h1, div#d3 h1{
-    margin-left: 10%;
-    margin-bottom: 20px;
+.knowledge{
+    margin-top: 85px;
 }
 
-div#d2-extra h2{
-    font-family: ClearSans-Bold, sans-serif;
-    font-size: 18px;
-    margin-left: 10%;
-    margin-top: 40px;
-}
-
-div#d2-extra{
-    margin-bottom: 200px;
-}
-
-.direita ul{
-    font-family: ClearSans-Normal, sans-serif;
-    margin-left: 8%;
+.col-right ul{
+    font-family: 'ClearSans-Normal', sans-serif;
     font-size: 16px;
 }
 
+.extra-title{
+    font-family: 'ClearSans-Bold' sans-serif;
+    font-size: 18px;
+}
 
-@media only screen and (max-width: 480px){
 
-    .container{
-        padding: 0px !important;
-        max-width: 100vw;
-    }
-    .row{
-        max-width: 100vw;
-        margin: 0px !important;
-    }
-
-    .esquerda{
-        max-width: 100vw;
-    }
-    .direita{
-        max-width: 100vw;
-    }
-
-    .esquerda > div{
-        max-width: 90%;
-    }
-    .direita > div{
-        max-width: 90%;
-    }
-
-    div#e2 > p {
-        margin-right: 0%;
-    }
-
-    div#e3 > p {
-        margin-left: 0%;
-    }
-
-    div#d1 > hr {
-        min-width: 61%;
-        max-width: 100vw;
+/* media queries */
+@media only screen and (max-width: 800px) {
+    .col-right, .col-left{
+        width: 100% !important;
     }
 }

@@ -11,65 +11,89 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 
 </head>
-<body style="background-color: #c6c7c3;">
-    <div class="container">
-        <div class="row">
-            <div class="esquerda col">
-                <div id="e1">
-                    <img src="images/ProfilePicture.png" alt="minha-foto" id="foto">
+<body>
+    <div class="main d-flex flex-wrap h-100 justify-content-center">
+        <div class="col-left col-3 py-3 px-5 position-relative">
+            <div class="content">
+                <div class="picture-aboutme">
+                    <div class="text-center">
+                        <img id="profile-picture" src="images/ProfilePicture.webp" alt="ProfilePicture">
+                    </div>
+                    <h2 class="title-text mt-4">SOBRE MIM</h2>
+                    <p class="aboutme-text">Estudo Análise e Desenvolvimento de Sistemas na UTFPR de Cornélio Procópio e estou procurando um estágio na área de desenvolvimento. Gosto de estudar tecnologias, linguagens, conceitos... e consigo aprender assuntos novos rapidamente.</p>
                 </div>
-                <div id="e2">
-                    <h1 class="titulo">SOBRE MIM</h1>
-                    <p>Estudo Análise e Desenvolvimento de Sistemas na UTFPR de Cornélio Procópio e estou procurando um estágio na área de desenvolvimento. Gosto de estudar tecnologias, linguagens, conceitos... e consigo aprender assuntos novos com certa rapidez e facilidade.</p>
+                
+                <div class="contacts mt-4">
+                    <h2 class="title-text">CONTATO</h2>
+                    <a href="mailto:lemerfilho@gmail.com" target="_blank" rel="external" class="email d-flex btn px-0">
+                        <img src="images/email.png" alt="email-icon">
+                        <p class="my-auto ms-1">lemerfilho@gmail.com</p>
+                    </a>
+                    <a href="https://github.com/Lemersom" target="_blank" rel="external" class="github d-flex btn px-0">
+                        <img src="images/github.png" alt="github-icon">
+                        <p class="my-auto ms-1">github.com/Lemersom</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lemersom/" target="_blank" rel="external" class="linkedin d-flex btn px-0">
+                        <img src="images/linkedin.png" alt="linkedin-icon">
+                        <p class="my-auto ms-1">linkedin.com/in/lemersom/</p>
+                    </a>
                 </div>
-                <div id="e3">
-                    <h1 class="titulo">CONTATO</h1>
-                    <p><a href="mailto:lemerfilho@gmail.com" target="_blank" rel="external"><img src="images/email.png" alt="email-icon"> lemerfilho@gmail.com</a></p>
-                    <p><a href="https://github.com/Lemersom" target="_blank" rel="external"><img src="images/github.png" alt="github-icon"> github.com/Lemersom</a></p>
-                    <p><a href="https://www.linkedin.com/in/lemersom/" target="_blank" rel="external"><img src="images/linkedin.png" alt="linkedin-icon"> linkedin.com/in/lemersom/</a></p>
-                </div>
-                <div id="e4">
-                    <h1 class="titulo">EDUCAÇÃO</h1>
-                    <p class="educacao-data">2021 - atual</p>
-                    <p class="educacao-maior">Universidade Tecnológica Federal do Paraná (UTFPR)</p>
-                    <p class="educacao-menor">Análise e Desenvolvimento de Sistemas</p>
-                    <p class="educacao-data">Formação em 2020</p>
-                    <p class="educacao-maior">Colégio Objetivo Dracena</p>
-                    <p class="educacao-menor">Ensinos Fundamentais e Médio</p>
+                <div class="education mt-4">
+                    <h2 class="title-text mb-3">EDUCAÇÂO</h2>
+                    <div class="university education-item">
+                        <p class="education-date m-0">2021 - atual</p>
+                        <p class="education-title m-0">Universidade Tecnológica Federal do Paraná (UTFPR)</p>
+                        <p class="education-subtitle m-0">Análise e Desenvolvimento de Sistemas</p>
+                    </div>
+                    <div class="school education-item mt-3">
+                        <p class="education-date m-0">Formação em 2020</p>
+                        <p class="education-title m-0">Colégio Objetivo Dracena</p>
+                        <p class="education-subtitle m-0">Ensinos Fundamentais e Médio</p>
+                    </div>
                 </div>
             </div>
-            <div class="direita col">
-                <div id="d1">
-                    <h1 id="nome">LÉMERSOM FERNANDES FILHO</h1>
-                    <h2>Estudante</h2>
-                    <hr>
+        </div>
+
+        <div class="col-right col-3 px-5 py-3">
+            <div class="content">
+                <div class="name pt-5">
+                    <h1 class="name-title">LÉMERSOM FERNANDES FILHO</h1>
+                    <h3 class="name-subtitle">Estudante</h3>
                 </div>
-                <div id="d2">
-                    <h1 class="titulo">CONHECIMENTOS</h1>
-                    <ul type="disk">
+                <hr id="divider">
+                <div class="knowledge">
+                    <h2 class="title-text mb-3">CONHECIMENTOS</h2>
+                    <ul class="ps-4">
                         <li>Linguagens C, Java e Python</li>
                         <li>SQL - PostgreSQL e plpgsql</li>
                         <li>Git, GitHub e desenvolvimento ágil</li>
                         <li>UML e POO</li>
                         <li>Estrutura de dados, Windows e Linux</li>
                     </ul>
-                    <div id="d2-extra">
-                        <h2>No momento estudando:</h2>
-                        <ul type="disk">
-                            <li>HTML e CSS</li>
-                            <li>JavaScript e Node.js (Express.js)</li>
-                            <li>PHP (Laravel)</li>
-                            <li>WordPress (Elementor)</li>
-                            <li>Redes</li>
-                        </ul>
-                    </div>
                 </div>
-                <div id="d3">
-                    <h1 class="titulo">OUTRO</h1>
-                    <ul type="disk">
+                <div class="studying mt-4">
+                    <h3 class="extra-title">No momento estudando:</h3>
+                    <ul class="ps-4">
+                        <li>HTML e CSS</li>
+                        <li>JavaScript e Node.js (Express.js)</li>
+                        <li>PHP (Laravel)</li>
+                        <li>WordPress (Elementor)</li>
+                    </ul>
+                </div>
+                <div class="experience mt-5">
+                    <h2 class="title-text">EXPERIÊNCIA</h2>
+                    <ul class="ps-4">
+                        <li>Estagiário de Desenvolvimento de Software na C2Desk, trabalhando com HTML, CSS, Bootstrap e JavaScript</li>
+                    </ul>
+                </div>
+                
+                <div class="outro mt-5">
+                    <h2 class="title-text">OUTRO</h2>
+                    <ul class="ps-4">
                         <li>Inglês intermediário-avançado</li>
                         <li>Música: teoria, produção e instrumentos</li>
-                        <li>Nascido em Dracena - SP (Brasil)</li>
+                        <li>Nascido em Dracena - SP</li>
+                        <li>Morando em Cornélio Procópio - PR</li>
                     </ul>
                 </div>
             </div>
