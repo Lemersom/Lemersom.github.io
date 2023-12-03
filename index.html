@@ -1,108 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <title>Currículo - Lémersom</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-
-</head>
-<body>
-    <div class="main d-flex flex-wrap h-100 justify-content-center">
-        <div class="col-left col-3 py-3 px-5 position-relative">
-            <div class="content">
-
-                <a class="language-link" href="index-english.html" target="_self">English page</a>
-
-                <div class="picture-aboutme">
-                    <div class="text-center">
-                        <img id="profile-picture" src="images/ProfilePicture.jpg" alt="ProfilePicture">
-                    </div>
-                    <h2 class="title-text mt-4">SOBRE MIM</h2>
-                    <p class="aboutme-text">Já trabalhei em um freelance como Desenvolvedor FrontEnd e estou buscando uma vaga na área de desenvolvimento para aprimorar minhas habilidades. Gosto de estudar novas tecnologias e consigo aprender rapidamente.</p>
-                </div>
-                
-                <div class="contacts mt-4">
-                    <h2 class="title-text">CONTATO</h2>
-                    <a href="mailto:lemerfilho@gmail.com" target="_blank" rel="external" class="email d-flex btn px-0">
-                        <img src="images/email.png" alt="email-icon">
-                        <p class="my-auto ms-1">lemerfilho@gmail.com</p>
-                    </a>
-                    <a href="https://github.com/Lemersom" target="_blank" rel="external" class="github d-flex btn px-0">
-                        <img src="images/github.png" alt="github-icon">
-                        <p class="my-auto ms-1">github.com/Lemersom</p>
-                    </a>
-                    <a href="https://www.linkedin.com/in/lemersom/" target="_blank" rel="external" class="linkedin d-flex btn px-0">
-                        <img src="images/linkedin.png" alt="linkedin-icon">
-                        <p class="my-auto ms-1">linkedin.com/in/lemersom/</p>
-                    </a>
-                </div>
-                <div class="education mt-4">
-                    <h2 class="title-text mb-3">EDUCAÇÂO</h2>
-                    <div class="university education-item">
-                        <p class="education-date m-0">2021 - atual</p>
-                        <p class="education-title m-0">Universidade Tecnológica Federal do Paraná (UTFPR)</p>
-                        <p class="education-subtitle m-0">Análise e Desenvolvimento de Sistemas</p>
-                    </div>
-                    <div class="school education-item mt-3">
-                        <p class="education-date m-0">Formação em 2020</p>
-                        <p class="education-title m-0">Colégio Objetivo Dracena</p>
-                        <p class="education-subtitle m-0">Ensinos Fundamentais e Médio</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-right col-3 px-5 py-3">
-            <div class="content">
-                <div class="name pt-5">
-                    <h1 class="name-title">LÉMERSOM FERNANDES FILHO</h1>
-                    <h3 class="name-subtitle">Programador</h3>
-                </div>
-                <hr id="divider">
-                <div class="knowledge">
-                    <h2 class="title-text mb-3">CONHECIMENTOS</h2>
-                    <ul class="ps-4">
-                        <li>HTML, CSS e JavaScript</li>
-                        <li>Node.js e PHP</li>
-                        <li>WordPress (Elementor)</li>
-                        <li>C, Java e Python</li>
-                        <li>SQL: PostgreSQL e plpgsql</li>
-                        <li>Git e GitHub</li>
-                        <li>UML e Orientação a objeto</li>
-                        <li>Estrutura de dados, Windows e Linux</li>
-                    </ul>
-                </div>
-                <div class="studying mt-4">
-                    <h3 class="extra-title">No momento estudando</h3>
-                    <ul class="ps-4">
-                        <li>React e React Native</li>
-                        <li>Padrões de Projeto</li>
-                        <li>Docker</li>
-                    </ul>
-                </div>
-                <div class="experience mt-5">
-                    <h2 class="title-text">EXPERIÊNCIA</h2>
-                    <ul class="ps-4">
-                        <li>Desenvolvedor FrontEnd Freelancer - tecnologias utilizadas: HTML, CSS, Bootstrap e JavaScript</li>
-                    </ul>
-                </div>
-                
-                <div class="outro mt-5">
-                    <h2 class="title-text">OUTRO</h2>
-                    <ul class="ps-4">
-                        <li>Inglês avançado</li>
-                        <li>Música: teoria, produção e instrumentos</li>
-                        <li>Nascido em Dracena - SP</li>
-                        <li>Morando em Cornélio Procópio - PR</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Lémersom</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
