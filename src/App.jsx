@@ -43,7 +43,7 @@ function App() {
           <Profile 
             name="Lémersom Fernandes Filho"
             title="Desenvolvedor de Software"
-            image="../public/ProfilePicture.jpg"
+            image="./ProfilePicture.jpg"
           />
 
           <h3 className='topic'>Educação</h3>
