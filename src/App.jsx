@@ -57,7 +57,7 @@ function App() {
           <Experience 
             title="Desenvolvedor Front-End Freelancer"
             techs="HTML, CSS, Bootstrap, JavaScript"
-            about="Fiquei responsavel em desenvolver o Front-End de 2 Sistemas Web distintos. Seguindo os designs projetados, eu desenvolvi as telas dos 2 sistemas e pude contribuir para que a empresa conseguisse terminar os sistemas. Teve uma duração de 2 meses e era realizada reuniões diárias para conversar sobre o avanço dos projetos."
+            about="Fiquei responsavel em desenvolver o Front-End de 2 Sistemas Web distintos. Seguindo os designs projetados, eu desenvolvi as telas dos 2 sistemas e pude contribuir para que a empresa conseguisse terminar os sistemas. Teve uma duração de 2 meses e era realizada reuniões diárias para conversar sobre o avanço dos projetos"
           />
           <Experience 
             title="SatisfyingYou - App coletor de votos React Native"
@@ -74,7 +74,7 @@ function App() {
           <Experience 
             title="Web Scraper Amazon"
             techs="Node.js, Express.js, Cheerio e EJS Template"
-            about="Projeto realizado durante um desafio de programação. O programa realiza Web Scraping para extrair informações essencias dos resultados de pesquisa de produtos da Amazon, mostrando esses dados para o usuário."
+            about="Projeto realizado durante um desafio de programação. O programa realiza Web Scraping para extrair informações essencias dos resultados de pesquisa de produtos da Amazon, mostrando esses dados para o usuário"
             link="https://github.com/Lemersom/WebScraperAmazon"
           />
 
