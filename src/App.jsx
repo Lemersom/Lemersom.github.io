@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 
 import Profile from './components/Profile'
@@ -14,18 +13,17 @@ function App() {
     "Node.js",
     "React.js",
     "React Native",
-    "SQL e Bancos de Dados Relacionais",
+    "SQL e NoSQL",
+    "Docker",
+    "Git e GitHub",
     "Windows e Linux"
   ]
 
   const techs = [
     "HTML e CSS",
-    "Docker",
-    "Git e GitHub",
     "Java",
     "Python",
     "C",
-    "NoSQL",
     "UML e Orientação a Objetos",
     "Padrões de Projeto",
     "Arquitetura de Software",
@@ -55,6 +53,16 @@ function App() {
 
           <h3 className='topic'>Experiências</h3>
           <Experience 
+            title="Desenvolvedor Fullstack Estagiário, LongLifeNutri"
+            techs="Node.js, Express.js, MongoDB, Redis"
+            about="- Desenvolvimento de API Rest em JavaScript com Node.js. 
+            - Criação do projeto do zero para realizar web scraping, com armazenamento e gerenciamento dos dados utilizando MongoDB.
+            - Implementação das funcionalidades CRUD, gestão de usuários, e controle de permissões utilizando JWT para autenticação. 
+            - Integração de servidor Redis para otimização das consultas e melhor desempenho da aplicação. 
+            - Desenvolvimento de outra API que se comunicava com a de web scraping, utilizando CRON para automatizar Jobs de atualização e monitoramento contínuo. 
+            - Implantação dos programas em servidor na nuvem, configuração do ambiente e garantia da operacionalidade dos sistemas"
+          />
+          <Experience 
             title="Desenvolvedor Front-End Freelancer"
             techs="HTML, CSS, Bootstrap, JavaScript"
             about="Fiquei responsavel em desenvolver o Front-End de 2 Sistemas Web distintos. Seguindo os designs projetados, eu desenvolvi as telas dos 2 sistemas e pude contribuir para que a empresa conseguisse terminar os sistemas. Teve uma duração de 2 meses e era realizada reuniões diárias para conversar sobre o avanço dos projetos"
@@ -70,12 +78,6 @@ function App() {
             techs="React.js, Node.js, Express.js, MySQL, Docker, Redis, RabbitMQ e Websocket"
             about="Projeto Final realizado em dupla para a disciplina de Programação Web Fullstack. O projeto possui: Um servidor HTTP desenvolvido em Node.js seguindo o padrão API Rest. Um servidor Websocket retornando uma mensagem para os usuário sempre que um item for adicionado. Um servidor de cache para as pesquisas. E um servidor de Mensageria para a criação de Logs"
             link="https://github.com/Lemersom/DeckBuilderYuGiOh"
-          />
-          <Experience 
-            title="Web Scraper Amazon"
-            techs="Node.js, Express.js, Cheerio e EJS Template"
-            about="Projeto realizado durante um desafio de programação. O programa realiza Web Scraping para extrair informações essencias dos resultados de pesquisa de produtos da Amazon, mostrando esses dados para o usuário"
-            link="https://github.com/Lemersom/WebScraperAmazon"
           />
 
         </div>
